@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+#page {
+    width: 600px;
+    height: 700px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-height: 700px) {
+    #page {
+        height: 600px;
+    }
+}
+
+#display {
+    margin: 0 auto;
+    width: 604px;
+    height: 474px;
+}
+
+#board {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 400px;
+    height: 400px;
+    clip: auto;
+    overflow: hidden;
+    border: 2px solid #404040;
+}
+
+#info_box {
+    position: absolute;
+    left:404px;
+    top:70px;
+    width: 200px;
+    height: 404px;
+    background-color: #7fb2e5;
+}
+
+#black_name {
+    height: 40px;
+    background-color: #53a6d7;
+    font-size: 21px;
+}
+
+#black_time {
+    height: 20px;
+    border: 2px solid #000;
+    background-color: #95c1d5;
+}
+
+#move_list {
+    height: 240px;
+    overflow: scroll;
+    background-color: #bcd2fe;
+}
+#nav_bar {
+    height: 20px;
+    align-content: center;
+}
+#white_time {
+    height: 20px;
+    border: 2px solid #000;
+    background-color: #95c1d5;
+}
+#white_name {
+    height: 40px;
+    background-color: #53a6d7;
+    font-size: 21px;
+    color: white;
+}
+#output_box {
+    position: absolute;
+    left: 0;
+    top: 474px;
+    height: 20px;
+    
+}
+#game_list {
+    position: absolute;
+    left: 0px;
+    top: 510px;
+}
+
+.square {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.white-square {
+    background-color: #e7f1fa;
+    color: #b58863;
+}
+
+.black-square {
+    background-color: #a2bcd9;
+  color: #f0d9b5;
+}
+
+.game_button {
+    width: 600px;
+    text-align: left;
+}
+.move_line {
+    display:block;
+}
+.move {
+    display:inline-block;
+    width: 80px;
+}
